@@ -1,0 +1,6 @@
+{
+  "name": "DISC Profile & Consciência",
+  "description": "Avaliação de perfil comportamental DISC, Pontos Fortes, modelo SCARF e 4 Temperamentos pelo Método 3C de Arnaldo Palma.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
