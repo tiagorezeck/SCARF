@@ -183,12 +183,12 @@ export default function ScarfResultPage() {
         {/* Navigation Tabs (Hidden in Print) */}
         <div className="flex gap-2 overflow-x-auto border-b border-gray-200 pb-2 print:hidden">
           {[
-            { id: 'geral', label: '1. Visão Geral & Gráficos' },
-            { id: 'diagnostico', label: '2. Diagnóstico dos 5 Domínios (3 Níveis)' },
-            { id: 'sensibilidade', label: '3. Mapa de Sensibilidade Social' },
-            { id: 'combinacao', label: '4. Associação (Top 1 + Top 2)' },
-            { id: 'situacoes', label: '5. Situações do Dia a Dia' },
-            { id: 'manual', label: '6. Manual de Liderança & Convivência' },
+            { id: 'geral', label: 'Visão Geral' },
+            { id: 'diagnostico', label: 'Domínios' },
+            { id: 'sensibilidade', label: 'Sensibilidade Social' },
+            { id: 'combinacao', label: 'Associação de Perfil' },
+            { id: 'situacoes', label: 'Cenários' },
+            { id: 'manual', label: 'Colaboração' },
           ].map((tab) => (
             <button
               key={tab.id}
